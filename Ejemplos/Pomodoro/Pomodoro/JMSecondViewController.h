@@ -10,4 +10,5 @@
 
 @interface JMSecondViewController : UIViewController
 
+- (IBAction)settearTiempo:(id)sender;
 @end

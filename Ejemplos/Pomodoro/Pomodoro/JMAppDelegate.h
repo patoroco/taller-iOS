@@ -14,4 +14,6 @@
 
 @property (strong, nonatomic) UITabBarController *tabBarController;
 
+@property (strong, nonatomic) NSNumber *tiempo;
+
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "JMSecondViewController.h"
+#import "JMAppDelegate.h"
 
 @interface JMSecondViewController ()
 
@@ -18,8 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        self.title = @"Configuración";
     }
     return self;
 }
@@ -35,5 +35,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)settearTiempo:(UIButton *)sender {
+    JMAppDelegate *delegate = (JMAppDelegate *)[[UIApplication sharedApplication] delegate];
+    delegate.tiempo = [NSNumber numberWithInt:sender.tag];
+}
+
 
 @end
