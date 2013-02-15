@@ -20,7 +20,6 @@
 		B9DC708116CEEB3B00BEC203 /* JMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DC707F16CEEB3B00BEC203 /* JMViewController.xib */; };
 		B9DC708916CEEBE400BEC203 /* cylicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9DC708716CEEBE400BEC203 /* cylicon.png */; };
 		B9DC708A16CEEBE400BEC203 /* cylicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9DC708816CEEBE400BEC203 /* cylicon@2x.png */; };
-		B9DC708C16CEEC9B00BEC203 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DC708B16CEEC9B00BEC203 /* Twitter.framework */; };
 		B9DC708E16CEEE8000BEC203 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DC708D16CEEE8000BEC203 /* Social.framework */; };
 		B9DC709216CEF37C00BEC203 /* JMDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DC709016CEF37C00BEC203 /* JMDetalleViewController.m */; };
 		B9DC709316CEF37C00BEC203 /* JMDetalleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DC709116CEF37C00BEC203 /* JMDetalleViewController.xib */; };
@@ -45,7 +44,6 @@
 		B9DC708016CEEB3B00BEC203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JMViewController.xib; sourceTree = "<group>"; };
 		B9DC708716CEEBE400BEC203 /* cylicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cylicon.png; sourceTree = "<group>"; };
 		B9DC708816CEEBE400BEC203 /* cylicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cylicon@2x.png"; sourceTree = "<group>"; };
-		B9DC708B16CEEC9B00BEC203 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		B9DC708D16CEEE8000BEC203 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		B9DC708F16CEF37C00BEC203 /* JMDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMDetalleViewController.h; sourceTree = "<group>"; };
 		B9DC709016CEF37C00BEC203 /* JMDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMDetalleViewController.m; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DC708E16CEEE8000BEC203 /* Social.framework in Frameworks */,
-				B9DC708C16CEEC9B00BEC203 /* Twitter.framework in Frameworks */,
 				B9DC706516CEEB3B00BEC203 /* UIKit.framework in Frameworks */,
 				B9DC706716CEEB3B00BEC203 /* Foundation.framework in Frameworks */,
 				B9DC706916CEEB3B00BEC203 /* CoreGraphics.framework in Frameworks */,
@@ -72,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				B9DC708D16CEEE8000BEC203 /* Social.framework */,
-				B9DC708B16CEEC9B00BEC203 /* Twitter.framework */,
 				B9DC706A16CEEB3B00BEC203 /* Twitter */,
 				B9DC706316CEEB3B00BEC203 /* Frameworks */,
 				B9DC706216CEEB3B00BEC203 /* Products */,
