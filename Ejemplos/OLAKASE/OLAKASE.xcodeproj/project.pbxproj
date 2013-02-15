@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9E3C1D016CED0D00047DF59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E3C1CF16CED0D00047DF59 /* UIKit.framework */; };
+		B9E3C1D216CED0D00047DF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E3C1D116CED0D00047DF59 /* Foundation.framework */; };
+		B9E3C1D416CED0D00047DF59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E3C1D316CED0D00047DF59 /* CoreGraphics.framework */; };
+		B9E3C1DA16CED0D00047DF59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9E3C1D816CED0D00047DF59 /* InfoPlist.strings */; };
+		B9E3C1DC16CED0D00047DF59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3C1DB16CED0D00047DF59 /* main.m */; };
+		B9E3C1E016CED0D00047DF59 /* JMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3C1DF16CED0D00047DF59 /* JMAppDelegate.m */; };
+		B9E3C1E216CED0D10047DF59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E3C1E116CED0D10047DF59 /* Default.png */; };
+		B9E3C1E416CED0D10047DF59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E3C1E316CED0D10047DF59 /* Default@2x.png */; };
+		B9E3C1E616CED0D10047DF59 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E3C1E516CED0D10047DF59 /* Default-568h@2x.png */; };
+		B9E3C1E916CED0D10047DF59 /* JMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3C1E816CED0D10047DF59 /* JMViewController.m */; };
+		B9E3C1EC16CED0D10047DF59 /* JMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9E3C1EA16CED0D10047DF59 /* JMViewController.xib */; };
+		B9E3C1F316CED0EB0047DF59 /* olakase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9E3C1F216CED0EB0047DF59 /* olakase.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9E3C1CC16CED0D00047DF59 /* OLAKASE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLAKASE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E3C1CF16CED0D00047DF59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9E3C1D116CED0D00047DF59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9E3C1D316CED0D00047DF59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9E3C1D716CED0D00047DF59 /* OLAKASE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OLAKASE-Info.plist"; sourceTree = "<group>"; };
+		B9E3C1D916CED0D00047DF59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9E3C1DB16CED0D00047DF59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9E3C1DD16CED0D00047DF59 /* OLAKASE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OLAKASE-Prefix.pch"; sourceTree = "<group>"; };
+		B9E3C1DE16CED0D00047DF59 /* JMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMAppDelegate.h; sourceTree = "<group>"; };
+		B9E3C1DF16CED0D00047DF59 /* JMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAppDelegate.m; sourceTree = "<group>"; };
+		B9E3C1E116CED0D10047DF59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B9E3C1E316CED0D10047DF59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B9E3C1E516CED0D10047DF59 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B9E3C1E716CED0D10047DF59 /* JMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMViewController.h; sourceTree = "<group>"; };
+		B9E3C1E816CED0D10047DF59 /* JMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMViewController.m; sourceTree = "<group>"; };
+		B9E3C1EB16CED0D10047DF59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JMViewController.xib; sourceTree = "<group>"; };
+		B9E3C1F216CED0EB0047DF59 /* olakase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = olakase.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E3C1C916CED0D00047DF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E3C1D016CED0D00047DF59 /* UIKit.framework in Frameworks */,
+				B9E3C1D216CED0D00047DF59 /* Foundation.framework in Frameworks */,
+				B9E3C1D416CED0D00047DF59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9E3C1C316CED0D00047DF59 = {
+			isa = PBXGroup;
+			children = (
+				B9E3C1D516CED0D00047DF59 /* OLAKASE */,
+				B9E3C1CE16CED0D00047DF59 /* Frameworks */,
+				B9E3C1CD16CED0D00047DF59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E3C1CD16CED0D00047DF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E3C1CC16CED0D00047DF59 /* OLAKASE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E3C1CE16CED0D00047DF59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9E3C1CF16CED0D00047DF59 /* UIKit.framework */,
+				B9E3C1D116CED0D00047DF59 /* Foundation.framework */,
+				B9E3C1D316CED0D00047DF59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9E3C1D516CED0D00047DF59 /* OLAKASE */ = {
+			isa = PBXGroup;
+			children = (
+				B9E3C1DE16CED0D00047DF59 /* JMAppDelegate.h */,
+				B9E3C1DF16CED0D00047DF59 /* JMAppDelegate.m */,
+				B9E3C1E716CED0D10047DF59 /* JMViewController.h */,
+				B9E3C1E816CED0D10047DF59 /* JMViewController.m */,
+				B9E3C1EA16CED0D10047DF59 /* JMViewController.xib */,
+				B9E3C1F216CED0EB0047DF59 /* olakase.jpg */,
+				B9E3C1D616CED0D00047DF59 /* Supporting Files */,
+			);
+			path = OLAKASE;
+			sourceTree = "<group>";
+		};
+		B9E3C1D616CED0D00047DF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E3C1D716CED0D00047DF59 /* OLAKASE-Info.plist */,
+				B9E3C1D816CED0D00047DF59 /* InfoPlist.strings */,
+				B9E3C1DB16CED0D00047DF59 /* main.m */,
+				B9E3C1DD16CED0D00047DF59 /* OLAKASE-Prefix.pch */,
+				B9E3C1E116CED0D10047DF59 /* Default.png */,
+				B9E3C1E316CED0D10047DF59 /* Default@2x.png */,
+				B9E3C1E516CED0D10047DF59 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9E3C1CB16CED0D00047DF59 /* OLAKASE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E3C1EF16CED0D10047DF59 /* Build configuration list for PBXNativeTarget "OLAKASE" */;
+			buildPhases = (
+				B9E3C1C816CED0D00047DF59 /* Sources */,
+				B9E3C1C916CED0D00047DF59 /* Frameworks */,
+				B9E3C1CA16CED0D00047DF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLAKASE;
+			productName = OLAKASE;
+			productReference = B9E3C1CC16CED0D00047DF59 /* OLAKASE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9E3C1C416CED0D00047DF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Tactilapp.com;
+			};
+			buildConfigurationList = B9E3C1C716CED0D00047DF59 /* Build configuration list for PBXProject "OLAKASE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9E3C1C316CED0D00047DF59;
+			productRefGroup = B9E3C1CD16CED0D00047DF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E3C1CB16CED0D00047DF59 /* OLAKASE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E3C1CA16CED0D00047DF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E3C1DA16CED0D00047DF59 /* InfoPlist.strings in Resources */,
+				B9E3C1E216CED0D10047DF59 /* Default.png in Resources */,
+				B9E3C1E416CED0D10047DF59 /* Default@2x.png in Resources */,
+				B9E3C1E616CED0D10047DF59 /* Default-568h@2x.png in Resources */,
+				B9E3C1EC16CED0D10047DF59 /* JMViewController.xib in Resources */,
+				B9E3C1F316CED0EB0047DF59 /* olakase.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9E3C1C816CED0D00047DF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E3C1DC16CED0D00047DF59 /* main.m in Sources */,
+				B9E3C1E016CED0D00047DF59 /* JMAppDelegate.m in Sources */,
+				B9E3C1E916CED0D10047DF59 /* JMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9E3C1D816CED0D00047DF59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E3C1D916CED0D00047DF59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9E3C1EA16CED0D10047DF59 /* JMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9E3C1EB16CED0D10047DF59 /* en */,
+			);
+			name = JMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9E3C1ED16CED0D10047DF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9E3C1EE16CED0D10047DF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9E3C1F016CED0D10047DF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLAKASE/OLAKASE-Prefix.pch";
+				INFOPLIST_FILE = "OLAKASE/OLAKASE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9E3C1F116CED0D10047DF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLAKASE/OLAKASE-Prefix.pch";
+				INFOPLIST_FILE = "OLAKASE/OLAKASE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9E3C1C716CED0D00047DF59 /* Build configuration list for PBXProject "OLAKASE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E3C1ED16CED0D10047DF59 /* Debug */,
+				B9E3C1EE16CED0D10047DF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E3C1EF16CED0D10047DF59 /* Build configuration list for PBXNativeTarget "OLAKASE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E3C1F016CED0D10047DF59 /* Debug */,
+				B9E3C1F116CED0D10047DF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9E3C1C416CED0D00047DF59 /* Project object */;
+}
